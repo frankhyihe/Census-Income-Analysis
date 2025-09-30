@@ -16,3 +16,17 @@ This project analyzes U.S. census data to:
 ---
 
 ## Project Structure
+project/
+│
+├─ census-bureau.data # Raw data
+├─ census-bureau.columns # Column headers
+├─ census.ipynb # Preprocessing, model training, evaluation for classifiers
+├─ segmentation.ipynb # Clustering and profiling for segmentation
+├─ requirements.txt # Python dependencies
+├─ README.md # Instructions & overview
+
+## Prerequisites
+
+- **Python** 3.10+  
+- **Dependencies** (install with `pip install -r requirements.txt`):
+
